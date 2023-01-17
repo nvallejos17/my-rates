@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/my-rates/static/css/main.e6c13ad2.css",
+    "main.js": "/my-rates/static/js/main.49b39aaf.js",
+    "static/js/787.2a7023e6.chunk.js": "/my-rates/static/js/787.2a7023e6.chunk.js",
+    "index.html": "/my-rates/index.html",
+    "main.e6c13ad2.css.map": "/my-rates/static/css/main.e6c13ad2.css.map",
+    "main.49b39aaf.js.map": "/my-rates/static/js/main.49b39aaf.js.map",
+    "787.2a7023e6.chunk.js.map": "/my-rates/static/js/787.2a7023e6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.49b39aaf.js"
+  ]
+}
