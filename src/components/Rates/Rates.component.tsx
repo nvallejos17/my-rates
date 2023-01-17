@@ -5,6 +5,8 @@ type IRatesProps = {
   isLoading: boolean;
 };
 
+const DECIMALS = 2;
+
 const Rates = ({ busdArs, busdEur, eurArs, isLoading }: IRatesProps) => {
   return (
     <div>
@@ -15,13 +17,13 @@ const Rates = ({ busdArs, busdEur, eurArs, isLoading }: IRatesProps) => {
       ) : (
         <ul>
           <li>
-            <b>1 BUSD:</b> {busdEur.toFixed(2)} EUR
+            <b>1 BUSD:</b> {busdEur.toFixed(DECIMALS)} EUR
           </li>
           <li>
-            <b>1 BUSD:</b> {busdArs.toFixed(2)} ARS
+            <b>1 BUSD:</b> {busdArs.toFixed(DECIMALS)} ARS
           </li>
           <li>
-            <b>1 EUR:</b> {eurArs.toFixed(2)} ARS
+            <b>1 EUR:</b> {eurArs.toFixed(DECIMALS)} ARS
           </li>
         </ul>
       )}
